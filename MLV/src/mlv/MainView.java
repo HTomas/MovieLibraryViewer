@@ -29,6 +29,10 @@ public class MainView extends javax.swing.JFrame {
         return cardPanel;
     }
     
+    public JPanel getBrowseCard(){
+        return browseCard;
+    }
+    
     public JPanel getBrowseCardPanel(){
         return browseCardPanel;
     }

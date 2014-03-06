@@ -42,15 +42,14 @@ public class MainController {
         for(int i=0; i<movieItems.length;i++){
             movieItems[i] = new MovieItem(new ImageIcon("/images/seven.png"));
         }
-        
-        //System.out.print("");      
+                    
         addMoviesToBrowsePanel(movieItems);
     }
     
     private void addMoviesToBrowsePanel(MovieItem[] movieItems){
-        
+        mainView.getBrowseCard().setBackground(Color.red);
         for(MovieItem mi : movieItems){
-           // mainView.getBrowseCardPanel().add(mi);
+            //mainView.getBrowseCardPanel().add(mi);
         }
     }
 }
